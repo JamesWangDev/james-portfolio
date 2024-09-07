@@ -128,19 +128,14 @@ export default function Contactus() {
                         james.wang.dev712@gmail.com
                       </p>
                     </a>
-                    <a
-                      href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
-                      className="personal-details"
-                    >
-                      <div className="personal-details">
-                        <div className="detailsIcon">
-                          <HiOutlineLocationMarker />
-                        </div>
-                        <p style={{ color: "#fbd9ad" }}>
-                          6-8 Pottinger St, Central, Hong Kong
-                        </p>
+                    <div className="personal-details">
+                      <div className="detailsIcon">
+                        <HiOutlineLocationMarker />
                       </div>
-                    </a>
+                      <p style={{ color: "#fbd9ad" }}>
+                        6-8 Pottinger St, Central, Hong Kong
+                      </p>
+                    </div>
                   </div>
                   <div className="contact-map">
                     <iframe
