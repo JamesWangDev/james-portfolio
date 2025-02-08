@@ -9,6 +9,8 @@ import pp from "../../images/shotassistant.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
+import spyne from "../../images/spyne.png";
+import qrcode from "../../images/qrcode.png";
 
 export default function Projects() {
   return (
@@ -128,16 +130,16 @@ export default function Projects() {
                     backgroundColor: "rgb(142 70 186 / 31%)",
                     border: "1px solid",
                   }}
-                  href="https://thecaptapp.com/"
+                  href="https://www.spyne.ai/"
                   target="_blank"
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Our Captain, Your Boat!
+                      Spyne AI
                     </h5>
                     <img
-                      src={captapp}
-                      alt={captapp}
+                      src={spyne}
+                      alt="spyne ai"
                       style={{ objectFit: "cover" }}
                     />
                     <div className="project--showcaseBtn"></div>
@@ -151,11 +153,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Whether it's a sunset cocktail cruise, fishing, transport,
-                      or just becoming familiar with your local waters we’re
-                      here to help. You pick the trip and date, we’ll instantly
-                      match you with local Captains who can make your day a much
-                      more enjoyable one.
+                      Spyne AI revolutionizes automobile merchandising with AI-powered image enhancement and virtual staging. It helps dealerships and sellers transform regular car photos into professional, showroom-quality images automatically.
                     </p>
                   </h6>
                   <div
@@ -166,7 +164,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, Vue, SCSS
+                    React, AWS, Computer Vision, PyTorch
                   </div>
                 </a>
               </Fade>
@@ -180,16 +178,19 @@ export default function Projects() {
                     backgroundColor: "rgb(142 70 186 / 31%)",
                     border: "1px solid",
                   }}
-                  href="https://fitdaypass.com/"
+                  href="https://qrcode-ai.com/"
                   target="_blank"
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Shop Assitant
+                      QR Code AI
                     </h5>
-                    <img src={pp} alt={pp} style={{ objectFit: "cover" }} />
-                    <div className="project--showcaseBtn">
-                    </div>
+                    <img
+                      src={qrcode}
+                      alt="qr code generator"
+                      style={{ objectFit: "cover" }}
+                    />
+                    <div className="project--showcaseBtn"></div>
                   </div>
                   <h6>
                     <p
@@ -200,7 +201,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Signle Page shop assistant app using pure HTML, CSS, JavaScript.
+                      A powerful and user-friendly QR code generator that creates customizable QR codes for various purposes. Features include dynamic QR codes, analytics tracking, and advanced customization options with AI-enhanced design capabilities.
                     </p>
                   </h6>
                   <div
@@ -211,7 +212,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    React, Next.js, TypeScript, TailwindCSS
                   </div>
                 </a>
               </Fade>

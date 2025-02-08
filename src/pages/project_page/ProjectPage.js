@@ -9,6 +9,12 @@ import pp from "../../images/shotassistant.png";
 import captapp from "../../images/captapp.png";
 import inworld from "../../images/inworld.png";
 import vacasa from "../../images/vacssa.png";
+import dream from "../../images/dream.png";
+import budds from "../../images/budds.png";
+import rblx from "../../images/rblx.png";
+import spyne from "../../images/spyne.png";
+import qrcode from "../../images/qrcode.png";
+
 export default function ProjectPage() {
   return (
     <section className="home-section">
@@ -171,8 +177,8 @@ export default function ProjectPage() {
                                 >
                                   Whether it's a sunset cocktail cruise,
                                   fishing, transport, or just becoming familiar
-                                  with your local waters we’re here to help. You
-                                  pick the trip and date, we’ll instantly match
+                                  with your local waters we're here to help. You
+                                  pick the trip and date, we'll instantly match
                                   you with local Captains who can make your day
                                   a much more enjoyable one.
                                 </p>
@@ -248,16 +254,16 @@ export default function ProjectPage() {
                                 backgroundColor: "rgb(142 70 186 / 31%)",
                                 border: "1px solid",
                               }}
-                              href="https://fitdaypass.com/"
+                              href="https://dream.ai/"
                               target="_blank"
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Inworld Dashboard
+                                  Dream AI
                                 </h5>
                                 <img
-                                  src={inworld}
-                                  alt={inworld}
+                                  src={dream}
+                                  alt="dream ai"
                                   style={{ objectFit: "cover" }}
                                 />
                                 <div className="project--showcaseBtn"></div>
@@ -271,12 +277,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Give players groundbreaking game mechanics,
-                                  dynamic NPCs, and worlds that evolve with each
-                                  action. Whether you're looking to unlock new
-                                  player experiences, streamline game design, or
-                                  future proof your AI infrastructure, Inworld
-                                  helps uplevel your game development with AI.
+                                  Dream AI is an advanced image generation platform that transforms text descriptions into stunning visual artwork. Using state-of-the-art AI models, users can create unique images for various purposes from simple descriptions.
                                 </p>
                               </h6>
                               <div
@@ -287,7 +288,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, SCSS, React, Next.js
+                                React, TypeScript, Next.js, TailwindCSS
                               </div>
                             </a>
                           </Fade>
@@ -301,16 +302,16 @@ export default function ProjectPage() {
                                 backgroundColor: "rgb(142 70 186 / 31%)",
                                 border: "1px solid",
                               }}
-                              href="https://fitdaypass.com/"
+                              href="https://budds.ai/"
                               target="_blank"
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Vacasa Rental Management
+                                  Budds AI
                                 </h5>
                                 <img
-                                  src={vacasa}
-                                  alt={vacasa}
+                                  src={budds}
+                                  alt="budds ai"
                                   style={{ objectFit: "cover" }}
                                 />
                                 <div className="project--showcaseBtn"></div>
@@ -324,10 +325,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Vacasa is North America’s #1 vacation rental
-                                  partner, providing expert care to more than
-                                  40,000 vacation homes in the most sought-after
-                                  guest destinations.
+                                  Budds AI is an innovative mental health chatbot that provides 24/7 emotional support and guidance. It uses advanced natural language processing to offer personalized conversations, coping strategies, and mental wellness resources.
                                 </p>
                               </h6>
                               <div
@@ -338,7 +336,151 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, SCSS, React, Next.js
+                                React, Node.js, Express, MongoDB
+                              </div>
+                            </a>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <a
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                              href="https://www.rblxai.com/"
+                              target="_blank"
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  RBLX AI
+                                </h5>
+                                <img
+                                  src={rblx}
+                                  alt="rblx ai"
+                                  style={{ objectFit: "cover" }}
+                                />
+                                <div className="project--showcaseBtn"></div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  RBLX AI is a specialized tool for Roblox developers and creators, generating high-quality icons and thumbnails using AI. It streamlines the creation process for game assets, helping developers create more engaging content efficiently.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                React, Python, FastAPI, TensorFlow
+                              </div>
+                            </a>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <a
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                              href="https://www.spyne.ai/"
+                              target="_blank"
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  Spyne AI
+                                </h5>
+                                <img
+                                  src={spyne}
+                                  alt="spyne ai"
+                                  style={{ objectFit: "cover" }}
+                                />
+                                <div className="project--showcaseBtn"></div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  Spyne AI revolutionizes automobile merchandising with AI-powered image enhancement and virtual staging. It helps dealerships and sellers transform regular car photos into professional, showroom-quality images automatically.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                React, AWS, Computer Vision, PyTorch
+                              </div>
+                            </a>
+                          </Fade>
+                        </Col>
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <a
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                                border: "1px solid",
+                              }}
+                              href="https://qrcode-ai.com/"
+                              target="_blank"
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                  QR Code AI
+                                </h5>
+                                <img
+                                  src={qrcode}
+                                  alt="qr code generator"
+                                  style={{ objectFit: "cover" }}
+                                />
+                                <div className="project--showcaseBtn"></div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "#fbd9ad",
+                                    color: "#b061df",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  A powerful and user-friendly QR code generator that creates customizable QR codes for various purposes. Features include dynamic QR codes, analytics tracking, and advanced customization options with AI-enhanced design capabilities.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "#fbd9ad",
+                                  color: "#b061df",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                React, Next.js, TypeScript, TailwindCSS
                               </div>
                             </a>
                           </Fade>

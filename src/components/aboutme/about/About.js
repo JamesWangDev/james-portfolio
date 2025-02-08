@@ -26,31 +26,35 @@ const About = () => {
           </Col>
 
           <Col md={7}>
-            <Fade duration={3000}>
+            <Fade duration={2000}>
               <p className="home-about-body">
-                My name is <b className="purple">James Wang </b> 
-                  and I am a <b className="purple">Senior full-stack developer </b> 
-                    who has 7+ years of experience in software development from<b className="purple">Hong Kong </b>
-                <br />
-                <br />
-                        I am proficient in various programming languages and frameworks such as &nbsp;
+                My name is <b className="purple">James Wang</b>, a passionate{" "}
+                <b className="purple">Senior Full-Stack Developer</b> with over 7 years 
+                of experience crafting digital solutions from <b className="purple">Hong Kong</b>.
+                <Fade left cascade duration={1500}>
+                  I specialize in building scalable applications using modern technologies including{" "}
                   <b className="purple">
-                    {" "}
-                    HTML, CSS, JavaScript, TypeScript, PHP, Python, React, Vue, Next.js, Tailwind CSS, NodeJS, Laravel, etc.{" "}
+                    React, Vue, Next.js, Node.js, and Cloud Services
                   </b>
+                  My expertise spans from responsive frontend designs to robust backend architectures.
+                </Fade>
                 <br />
-                <br />
-                Recently, I am interested in &nbsp;
-
+                <Fade right cascade duration={1500}>
+                  Currently, I'm deeply involved in
                   <b className="purple">
-                    {" "}
-                    AI, LLM, Chatbot, Open AI, GPT, etc. {" "}
+                    AI/LLM Development, focusing on building intelligent systems using OpenAI, LangChain, 
+                    RAG architectures, and Vector Databases
                   </b>
-                <br />
-                <br />
-                I follow standard industry web development methodologies and standard coding styles and best practices in development. &nbsp;
-                <br />
-                <br />I am free for now so I can dedicate to your project at anytime. Please feel free to contact me anytime. &nbsp;
+                  I'm passionate about creating AI-powered solutions that solve real-world problems.
+                </Fade>
+                <Fade bottom duration={1500}>
+                  I pride myself on writing clean, maintainable code and following industry best practices. 
+                  My approach combines technical excellence with practical business solutions.
+                </Fade>
+                <Fade bottom duration={1500}>
+                  I'm currently available for new opportunities and would love to discuss how I can 
+                  contribute to your project's success. Let's connect and create something amazing together!
+                </Fade>
               </p>
             </Fade>
           </Col>

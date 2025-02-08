@@ -42,142 +42,67 @@ function TechnicalJourney() {
         </Flip>
       </div>
       <VerticalTimeline>
+        {/* DevOps & Cloud - Earlier Experience */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2018 - 2020"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<ComputerIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            C PROGRAMMING LANGUAGE
-          </h3>
+          <h3 className="vertical-timeline-element-title">DevOps & Cloud</h3>
+          <p>
+            • CI/CD implementation and automation
+            <br />
+            • Docker containerization and orchestration
+            <br />
+            • Cloud infrastructure management
+            <br />
+            • Performance optimization and monitoring
+          </p>
         </VerticalTimelineElement>
+
+        {/* Full Stack Development */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<ComputerIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            C++ PROGRAMMING LANGUAGE
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiHtml5 />}
-        >
-          <h3 className="vertical-timeline-element-title">HTML</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiCss3 />}
-        >
-          <h3 className="vertical-timeline-element-title">CSS</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiJavascript1 />}
-        >
-          <h3 className="vertical-timeline-element-title">JAVASCRIPT</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiPython />}
-        >
-          <h3 className="vertical-timeline-element-title">PYTHON</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiPhp />}
-        >
-          <h3 className="vertical-timeline-element-title">PHP</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiMysql />}
-        >
-          <h3 className="vertical-timeline-element-title">MySQL</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiNodejs />}
-        >
-          <h3 className="vertical-timeline-element-title">NODE JS
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<ComputerIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">TYPESCRIPT</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2020 - 2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiReact />}
         >
-          <h3 className="vertical-timeline-element-title">REACT</h3>
+          <h3 className="vertical-timeline-element-title">Full Stack Development</h3>
+          <p>
+            • Building scalable web applications with modern frameworks
+            <br />
+            • Frontend: React, Vue, Next.js, TypeScript
+            <br />
+            • Backend: Node.js, Laravel, RESTful APIs
+            <br />
+            • Database: MongoDB, PostgreSQL, MySQL
+          </p>
         </VerticalTimelineElement>
 
+        {/* AI/LLM Development - Most Recent */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
+          date="2022 - Present"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<ComputerIcon />}
         >
-          <h3 className="vertical-timeline-element-title">VUE</h3>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<ComputerIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">AI/ML</h3>
+          <h3 className="vertical-timeline-element-title">AI/LLM Development</h3>
+          <p>
+            • Building AI-powered applications using OpenAI and LangChain
+            <br />
+            • Implementing RAG systems with Vector Databases
+            <br />
+            • Developing custom chatbots and AI assistants
+            <br />
+            • Optimizing prompt engineering and embeddings
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
