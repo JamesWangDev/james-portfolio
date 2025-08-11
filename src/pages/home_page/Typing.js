@@ -7,8 +7,10 @@ function Typing() {
             options={{
                 strings: [
                     "Full Stack Engineer",
-                    "Frontend Developer",
-                    "Backend Developer",
+                    "AI/ML Developer",
+                    "Blockchain Developer",
+                    "SaaS Specialist",
+                    "DevOps Engineer",
                 ],
                 autoStart: true,
                 loop: true,

@@ -29,27 +29,28 @@ const About = () => {
             <Fade duration={2000}>
               <p className="home-about-body">
                 My name is <b className="purple">James Wang</b>, a passionate{" "}
-                <b className="purple">Senior Full-Stack Developer</b> with over 7 years 
-                of experience crafting digital solutions from <b className="purple">Hong Kong</b>.
+                <b className="purple">Full Stack Engineer</b> with over 8 years 
+                of experience delivering high-performance SaaS, blockchain, and DevOps solutions from <b className="purple">Hong Kong</b>.
                 <Fade left cascade duration={1500}>
                   I specialize in building scalable applications using modern technologies including{" "}
                   <b className="purple">
-                    React, Vue, Next.js, Node.js, and Cloud Services
+                    React, Next.js, Vue, Node.js, TypeScript, and Cloud Services
                   </b>
-                  My expertise spans from responsive frontend designs to robust backend architectures.
+                  . Known for fast, reliable work style, full-time availability, and quick communication that keeps projects moving seamlessly from idea to launch.
                 </Fade>
                 <br />
                 <Fade right cascade duration={1500}>
-                  Currently, I'm deeply involved in
+                  Currently, I'm deeply involved in{" "}
                   <b className="purple">
-                    AI/LLM Development, focusing on building intelligent systems using OpenAI, LangChain, 
-                    RAG architectures, and Vector Databases
+                    AI-powered SaaS platforms, focusing on building intelligent systems for image processing, 
+                    blockchain development, and scalable web applications
                   </b>
-                  I'm passionate about creating AI-powered solutions that solve real-world problems.
+                  . I'm passionate about creating solutions that solve real-world problems and drive business value.
                 </Fade>
                 <Fade bottom duration={1500}>
-                  I pride myself on writing clean, maintainable code and following industry best practices. 
-                  My approach combines technical excellence with practical business solutions.
+                  My expertise spans from responsive frontend designs to robust backend architectures, 
+                  with particular strength in AI integration, blockchain development, and DevOps automation. 
+                  I pride myself on writing clean, maintainable code and following industry best practices.
                 </Fade>
                 <Fade bottom duration={1500}>
                   I'm currently available for new opportunities and would love to discuss how I can 

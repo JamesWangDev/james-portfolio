@@ -14,10 +14,15 @@ const resumeLink =
 
 function Resume() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   return (
     <div>
@@ -42,8 +47,15 @@ function Resume() {
                 </Button>
               </div>
               <div className="resume d-flex justify-content-center">
-                <Document file={pdf}>
-                  <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
+                <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
+                  {Array.from(new Array(numPages), (el, index) => (
+                    <Page 
+                      key={`page_${index + 1}`}
+                      pageNumber={index + 1} 
+                      scale={width > 786 ? 1.6 : 0.4} 
+                      style={{ marginBottom: "20px" }}
+                    />
+                  ))}
                 </Document>
               </div>
               <div className="d-flex justify-content-center">

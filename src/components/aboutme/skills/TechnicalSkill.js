@@ -50,7 +50,7 @@ export default function TechnicalSkill() {
                 Frontend Development
               </h2>
               <p style={{ color: "#fbd9ad", fontSize: "14px" }}>
-                React, Vue, Next.js, TypeScript, Tailwind, Material-UI
+                React, Next.js, Vue, Nuxt.js, TypeScript, Svelte, Tailwind CSS, Material-UI, Styled-components
               </p>
             </div>
           </Col>
@@ -58,17 +58,17 @@ export default function TechnicalSkill() {
           {/* Backend Development */}
           <Col md={4}>
             <h1 style={{ fontSize: "100px", color: "#68a063", fontWeight: 700 }}>
-              90%
+              92%
             </h1>
             <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
               <div class="progress">
                 <div
                   role={"progressbar"}
                   id={"backend"}
-                  aria-valuenow={"90"}
+                  aria-valuenow={"92"}
                   aria-valuemin={"0"}
                   aria-valuemax={"100"}
-                  style={{ width: "90%" }}
+                  style={{ width: "92%" }}
                 ></div>
               </div>
               <h2
@@ -82,7 +82,7 @@ export default function TechnicalSkill() {
                 Backend Development
               </h2>
               <p style={{ color: "#fbd9ad", fontSize: "14px" }}>
-                Node.js, Laravel, Django, RESTful APIs, GraphQL
+                Node.js, Express.js, NestJS, Fastify, Laravel, PHP, RESTful APIs, GraphQL, Strapi
               </p>
             </div>
           </Col>
@@ -90,17 +90,17 @@ export default function TechnicalSkill() {
           {/* Database & Cloud */}
           <Col md={4}>
             <h1 style={{ fontSize: "100px", color: "#ff6b6b", fontWeight: 700 }}>
-              88%
+              90%
             </h1>
             <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
               <div class="progress">
                 <div
                   role={"progressbar"}
                   id={"database"}
-                  aria-valuenow={"88"}
+                  aria-valuenow={"90"}
                   aria-valuemin={"0"}
                   aria-valuemax={"100"}
-                  style={{ width: "88%" }}
+                  style={{ width: "90%" }}
                 ></div>
               </div>
               <h2
@@ -114,12 +114,44 @@ export default function TechnicalSkill() {
                 Database & Cloud
               </h2>
               <p style={{ color: "#fbd9ad", fontSize: "14px" }}>
-                MongoDB, PostgreSQL, MySQL, AWS, Docker
+                MySQL, MongoDB, DynamoDB, AWS, GCP, Azure, Vercel, Netlify, Docker, CI/CD
               </p>
             </div>
           </Col>
 
-          {/* AI/LLM Development */}
+          {/* Blockchain Development */}
+          <Col md={4}>
+            <h1 style={{ fontSize: "100px", color: "#f7931e", fontWeight: 700 }}>
+              88%
+            </h1>
+            <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+              <div class="progress">
+                <div
+                  role={"progressbar"}
+                  id={"blockchain"}
+                  aria-valuenow={"88"}
+                  aria-valuemin={"0"}
+                  aria-valuemax={"100"}
+                  style={{ width: "88%" }}
+                ></div>
+              </div>
+              <h2
+                style={{
+                  color: "#f7931e",
+                  fontSize: "25px",
+                  marginTop: "13px",
+                  fontWeight: 700,
+                }}
+              >
+                Blockchain Development
+              </h2>
+              <p style={{ color: "#fbd9ad", fontSize: "14px" }}>
+                Solidity, Rust, Web3.js, Ethers.js, Hardhat, Truffle, Thirdweb, DeFi, NFTs
+              </p>
+            </div>
+          </Col>
+
+          {/* AI/ML Development */}
           <Col md={4}>
             <h1 style={{ fontSize: "100px", color: "#41f2ff", fontWeight: 700 }}>
               85%
@@ -143,10 +175,42 @@ export default function TechnicalSkill() {
                   fontWeight: 700,
                 }}
               >
-                AI/LLM Development
+                AI/ML Development
               </h2>
               <p style={{ color: "#fbd9ad", fontSize: "14px" }}>
-                OpenAI, LangChain, Vector DBs, RAG, Prompt Engineering
+                OpenAI, LangChain, Vector DBs, RAG, Prompt Engineering, Computer Vision
+              </p>
+            </div>
+          </Col>
+
+          {/* DevOps & Tools */}
+          <Col md={4}>
+            <h1 style={{ fontSize: "100px", color: "#00d4aa", fontWeight: 700 }}>
+              87%
+            </h1>
+            <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+              <div class="progress">
+                <div
+                  role={"progressbar"}
+                  id={"devops"}
+                  aria-valuenow={"87"}
+                  aria-valuemin={"0"}
+                  aria-valuemax={"100"}
+                  style={{ width: "87%" }}
+                ></div>
+              </div>
+              <h2
+                style={{
+                  color: "#00d4aa",
+                  fontSize: "25px",
+                  marginTop: "13px",
+                  fontWeight: 700,
+                }}
+              >
+                DevOps & Tools
+              </h2>
+              <p style={{ color: "#fbd9ad", fontSize: "14px" }}>
+                Git, GitHub Actions, Docker, AWS, CI/CD, Testing, Performance Optimization
               </p>
             </div>
           </Col>
